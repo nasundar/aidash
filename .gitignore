@@ -1,0 +1,28 @@
+# Rust build output
+/target
+
+# Cargo lock is committed for binary projects
+# Cargo.lock
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OS generated files
+*.tmp
+*.bak
+*.orig
+
+# Environment & config (user-specific)
+.env
+.env.local
+
+# Debug files
+*.pdb
+*.dSYM/

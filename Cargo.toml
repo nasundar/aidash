@@ -1,0 +1,17 @@
+[package]
+name = "aidash"
+version = "0.1.0"
+edition = "2021"
+description = "AI Coding Assistant Token & Cost Dashboard"
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+rusqlite = { version = "0.32", features = ["bundled"] }
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+chrono = { version = "0.4", features = ["serde"] }
+dirs = "6"
